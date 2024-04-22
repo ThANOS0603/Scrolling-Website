@@ -1,0 +1,51 @@
+.body {
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+.parallax{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 105vh;
+    background-image: url(/images/back.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.parallax img { 
+    position: absolute;
+    top: 0vh;  
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+
+}
+
+.parallax img#gateleft {
+    transform: translate(-282px);
+}
+
+.parallax img#gateright {
+    transform: translate(305px);
+}
+
+.text {
+    text-shadow: 2px 4px 5px #349e84;
+}
+
+.sec {
+    position: relative;
+    background-color: #020912;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
